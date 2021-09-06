@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f1f5f8 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.section-center{
+  background: #fff;
+  margin: 8rem auto 20px;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.grocery-form .Heading{
+  font-size: 27px;
+  margin: 1rem 0;
+  color: #063251;
+  font-weight: 700;
+}
+
+.grocery-form .form-control{
+  display: flex;
+  justify-content: center;
+}
+
+.grocery-form .grocery-input{
+  background: #f1f5f8;
+  border: none;
+  font-size: 16px;
+  width: 400px;
+}
+
+.grocery-form .submit-btn{
+  border: none;
+  background: #49a6e9;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 3px;
+  color: #000;
+}
+
+.grocery-form .submit-btn:hover{
+  background: #1684d2;
+  color: #fff;
+}
+
+.grocery-container{
+  margin: 1rem 1rem;
+}
+
+.clear-btn{
+  border: none;
+  background: inherit;
+  color: #e08181;
+  font-size: 1rem;
+}
+
+.clear-btn:hover{
+  color: #c70f0f;
+}
+
+.grocery-list{
+  padding: .5rem 0 2rem;
+}
+
+.grocery-list .grocery-item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: .5rem;
+}
+
+.grocery-item:hover{
+  background: #f1f5f8;
+  border-radius: 2px;
+
+}
+
+
+.grocery-list .title{
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.edit-btn{
+  border: none;
+  background: inherit;
+  color: #01a53b;
+
+}
+
+.delete-btn{
+  border: none;
+  background: inherit;
+  color: #e2280a;
+}
+
+.alert{
+  padding: 2px;
+}
+
+.alert-danger{
+  background: #e6aaaa;
+  border-radius: 5px;
+}
+
+.alert-success{
+  background: #84f5ac;
+  border-radius: 5px;
+}
